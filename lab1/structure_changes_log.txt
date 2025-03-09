@@ -1,1 +1,1 @@
-[2025-03-02T16:41:52.133810] Attempted to add dynamic attribute 'new_attribute' with value 'This should fail' to instance of UserProfile
+[2025-03-09T17:44:09.275629] Attempted to add dynamic attribute 'new_attribute' with value 'This should fail' to instance of UserProfile

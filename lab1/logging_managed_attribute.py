@@ -19,5 +19,5 @@ def attr_change_logger(cls):
     for attr_name, attr in cls.__dict__.items():
         if isinstance(attr, ManagedAttribute):
             # Replace with a logging descriptor.
-            setattr(cls, attr_name, LoggingManagedAttribute(attr.name))
+            setattr(cls, attr_name, LoggingManagedAttribute(attr.name, attr.validation_function))
     return cls

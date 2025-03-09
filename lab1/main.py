@@ -15,7 +15,7 @@ if __name__ == "__main__":
             os.remove(file)
 
     # Create a user profile.
-    user = UserProfile("Alice", 30, "alice@example.com", "secret123", "PC001")
+    user = UserProfile("Alice", 30, "alice@example.com", "Secret123", "IPCA001007")
 
     # Change a string attribute to trigger logging in the attribute descriptor.
     user.name = "Alice Cooper"  # This change is logged in name_log.txt.
